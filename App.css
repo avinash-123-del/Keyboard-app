@@ -1,0 +1,102 @@
+/* KeyboardLayout.css */
+body{
+  width:94vw;
+  background-color:#f9f985;
+  border: 2px solid black;
+  font-family:poppins;
+  padding:20px 30px;
+}
+
+.keyboard-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color:#fdc55d;
+  padding-top:20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-bottom: 10px;
+  position:static;
+}
+
+.highlighted-key {
+  background-color: #ffd700;
+  border-radius: 5px;
+  padding: 5px;
+  font-size:20px;
+}
+
+/* TextInput.css */
+.text-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color:#e4e2e2;
+  color:black;
+  font-size:20px;
+  font-weight:bold;
+  border: 2px solid snow;
+  border-radius:10px
+  
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 12px;
+  background:#7ad6f5;
+  font-weight:bold;
+  
+}
+
+/* ProgressTracker.css */
+.progress-tracker {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f7f702;
+  padding:20px;
+}
+
+.metric {
+  text-align: center;
+}
+
+.metric-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.metric-value {
+  font-size: 24px;
+}
+
+.Steps{
+  background-color:#f5f575;
+  padding:20px 10px;
+}
+
+.Steps>h3{
+  text-align:center;
+  padding:10px 0;
+  background-color:#b9b904;
+}
+
+.Steps>p{
+  font-size:12px;
+}
+
+.note{
+  color:#6e0202;
+}
